@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 300px;
+  background-color: #22a4f3;
+  background-image: ;
+}
+
+.custom-header {
+  background-color: #22a4f3;
+}
+
+.letras {
+  color: #dfe5fa;
+  font-weight: 900;
+  text-shadow: -1px -1px 0 #22a3f3d0, 1px -1px 0 #22a3f3d0, -1px 1px 0 #22a3f3d0,
+    1px 1px 0 #22a3f3d0;
+}
+
+.letras-menores {
+  color: #dfe5fa;
+  font-weight: 650;
+}
+
+.btn-color {
+  background-color: #fed84b;
+  color: #644e00;
+  font-weight: bold;
+}
+
+.btn-color:hover {
+  color: #644e00;
+  background-color: #f8bd41;
+}
+
+.link {
+  color: #dfe5fa;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: #f8bd41;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ajusta a altura para ocupar toda a tela */
+  background-color: #22a4f3;
+  color: white; /* Mudei para branco para o texto aparecer melhor */
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative; /* Para ajustes de posicionamento */
+  overflow: hidden; /* Evita que o fundo "vaze" por conta do GIF */
+}
+
+.penguin {
+  width: 250px;
+  margin-left: 80px;
+}
